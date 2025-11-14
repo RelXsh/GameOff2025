@@ -13,7 +13,9 @@ public class FishData : ScriptableObject
     public float speed = 2f; // base swim speed
 
     [Header("Dating Data")]
-    //public DialogueData[] dialogues; // references to dialogue ScriptableObjects
+    public DialogueData[] dialogues; // references to dialogue ScriptableObjects
+    public int datingProgress; // current dating progress (dialogue counter tbh)
+    public int currentDialogueProgress;
     public AudioClip voiceClip; // optional cute fish sound
 
     [Header("Visuals")]

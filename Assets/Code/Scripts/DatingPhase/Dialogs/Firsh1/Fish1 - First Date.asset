@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffbe7117cd13ad9499143794429164ef, type: 3}
+  m_Name: Fish1 - First Date
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  dialogueName: First Date
+  dialogueParticipants: 0
+  fishText:
+  - Hey
+  - So how are you?
+  - How dit you get into fishing?
+  - Got any other cool hobby's?
+  - This is not really goining as i expected
+  - 'Sooooo..... '
+  - I gotta go , Lovely meeting you!
+  playerText:
+  - Hey
+  - Good.
+  - Father.
+  - Sleeping.
+  - Best date of my life so far!
+  - 
+  - Nice meeting you to! Bye!
+  thirdPartyText: []
+  fourtPartyText: []
